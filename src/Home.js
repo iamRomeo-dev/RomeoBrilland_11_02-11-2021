@@ -4,12 +4,10 @@ import { Grid } from "./Grid";
 
 export const Home = () => {
   return (
-    <>
-      <div className="mx-6 sm:mx-24">
-        <Header />
-        <Banner />
-        <Grid />
-      </div>
-    </>
+    <div>
+      <Header />
+      <Banner />
+      <Grid />
+    </div>
   );
 };

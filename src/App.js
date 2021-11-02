@@ -10,19 +10,21 @@ const queryClient = new QueryClient();
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <Switch>
-        <Route path="/accomodation/:userId" exact>
-          <Accomodation />
-        </Route>
-        <Route path="/home" exact>
-          <Home />
-        </Route>
-        <Route path="*">
-          <Redirect to="/page-not-found" />
-        </Route>
-      </Switch>
-    </QueryClientProvider>
+    <div className="mx-6 sm:mx-24">
+      <QueryClientProvider client={queryClient}>
+        <Switch>
+          <Route path="/accomodation/:userId" exact>
+            <Accomodation />
+          </Route>
+          <Route path="/home" exact>
+            <Home />
+          </Route>
+          <Route path="*">
+            <Redirect to="/page-not-found" />
+          </Route>
+        </Switch>
+      </QueryClientProvider>
+    </div>
   );
 }
 
