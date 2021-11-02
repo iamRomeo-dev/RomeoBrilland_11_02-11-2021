@@ -15,7 +15,7 @@ export const fetchAccommodation = async () => {
 // };
 
 // Filter the accomodation with the id of the accomodation is equal to the userId
-export const fetchPhotographerById = async (id) => {
+export const fetchAccomodationById = async (id) => {
   const res = await fetch(url);
   const json = await res.json();
   return json.filter((accomodation) => {
