@@ -2,6 +2,8 @@ import "./App.css";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 import { Home } from "./Home";
+import { Accomodation } from "./Accomodation";
+
 import { QueryClient, QueryClientProvider } from "react-query";
 
 const queryClient = new QueryClient();
@@ -10,16 +12,14 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Switch>
+        <Route path="/accomodation/:userId" exact>
+          <Accomodation />
+        </Route>
         <Route path="/home" exact>
           <Home />
         </Route>
-        <Route path="/homee" exact>
-          <div className="mx-6 sm:mx-24">
-            <h1>toto</h1>
-          </div>
-        </Route>
         <Route path="*">
-          <Redirect to="/home" />
+          <Redirect to="/page-not-found" />
         </Route>
       </Switch>
     </QueryClientProvider>

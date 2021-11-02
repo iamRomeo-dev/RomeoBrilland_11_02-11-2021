@@ -12,11 +12,11 @@ export const Grid = () => {
       {status === "error" && <div>Error fetching data</div>}
 
       {status === "success" && (
-        <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:bg-gray-100 rounded-xl gap-12 md:p-12 mt-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:bg-gray-100 rounded-xl gap-12 md:p-12 mt-24">
           {data.map((data, index) => (
             <GridPhoto data={data} />
           ))}
-        </ul>
+        </div>
       )}
     </>
   );
