@@ -5,12 +5,12 @@ export const Header = () => {
   return (
     <header className="relative bg-white mt-4">
       <div className="flex justify-between items-center py-6 ">
-        <Link to="/home">
+        <Link to="/">
           <img className="h-10 w-auto sm:h-14" src={logo} alt="logo" />
         </Link>
         <div className="md:flex items-center justify-end md:flex-1 lg:w-0">
           <Link
-            to="/home"
+            to="/"
             className="whitespace-nowrap text-base font-medium text-red-300 hover:text-gray-900"
           >
             Accueil
