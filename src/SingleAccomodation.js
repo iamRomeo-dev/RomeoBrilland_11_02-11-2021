@@ -4,6 +4,7 @@ import { DisplayStars } from "./DisplayStars";
 import { data } from "./data";
 import SingleBanner from "./SingleBanner";
 import Banner from "./Banner";
+import { LeftArrowIcon, RightArrowIcon } from "./Icons";
 
 export default class SingleAccomodation extends Component {
   render() {
@@ -22,18 +23,22 @@ export default class SingleAccomodation extends Component {
               alt="SingleBanner"
               className="object-cover h-72 w-full rounded-xl"
             />
-            {/* <div
-              onClick={handlePreviousPicture}
+            <div
+              // onClick={handlePreviousPicture}
               className="absolute left-2 top-1/2 -translate-y-1/2"
             >
-              {pictures.length != 1 && <LeftArrowIcon />}
+              {SingleAccomodationDatas.pictures.length != 1 && (
+                <LeftArrowIcon />
+              )}
             </div>
             <div
-              onClick={handleNextPicture}
+              // onClick={handleNextPicture}
               className="absolute right-2 top-1/2 -translate-y-1/2"
             >
-              {pictures.length != 1 && <RightArrowIcon />}
-            </div> */}
+              {SingleAccomodationDatas.pictures.length != 1 && (
+                <RightArrowIcon />
+              )}
+            </div>
           </div>
           {/* <SingleBanner /> */}
 
