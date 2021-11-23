@@ -1,13 +1,17 @@
-import { Header } from "./Header";
-import { Banner } from "./Banner";
-import { Grid } from "./Grid";
+import React, { Component } from "react";
+import Header from "./Header";
+import Banner from "./Banner";
+import Grid from "./Grid";
 
-export const Home = () => {
-  return (
-    <div>
-      <Header />
-      <Banner />
-      <Grid />
-    </div>
-  );
-};
+class Home extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Banner />
+        <Grid />
+      </div>
+    );
+  }
+}
+export default Home;

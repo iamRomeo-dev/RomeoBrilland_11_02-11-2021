@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 import { useParams } from "react-router";
-import { Header } from "./Header";
+import Header from "./Header";
 import { SingleBanner } from "./SingleBanner";
 import { fetchAccomodationById } from "./API";
 import { DisplayStars } from "./DisplayStars";
