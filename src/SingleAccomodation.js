@@ -1,9 +1,7 @@
 import { useQuery } from "react-query";
 import { useParams } from "react-router";
 import { Header } from "./Header";
-import { Banner } from "./Banner";
-import { StarFilledIcon } from "./Icons";
-import { StarOutlinedIcon } from "./Icons";
+import { SingleBanner } from "./SingleBanner";
 import { fetchAccomodationById } from "./API";
 import { DisplayStars } from "./DisplayStars";
 
@@ -23,7 +21,7 @@ export const SingleAccomodation = () => {
       {status === "success" && (
         <>
           <Header />
-          <Banner />
+          <SingleBanner pictures={accomodation.pictures} />
 
           <div className="sm:flex justify-between flex-wrap mt-6">
             <div>
