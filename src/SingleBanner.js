@@ -4,7 +4,7 @@ import { LeftArrowIcon } from "./Icons";
 
 export const SingleBanner = ({ pictures }) => {
   const [selected, setSelected] = useState(0);
-
+  console.log("pictures", pictures);
   const handleNextPicture = () => {
     setSelected((prev) => {
       if (prev === pictures.length - 1) {
@@ -36,13 +36,14 @@ export const SingleBanner = ({ pictures }) => {
         onClick={handlePreviousPicture}
         className="absolute left-2 top-1/2 -translate-y-1/2"
       >
-        <LeftArrowIcon />
+        {/* Add condition if only one picture, so no need the arrows */}
+        {pictures.length != 1 && <LeftArrowIcon />}
       </div>
       <div
         onClick={handleNextPicture}
         className="absolute right-2 top-1/2 -translate-y-1/2"
       >
-        <RightArrowIcon />
+        {pictures.length != 1 && <RightArrowIcon />}
       </div>
     </div>
   );
