@@ -6,7 +6,7 @@ export const DisplayStars = ({ rating }) => {
   return (
     <>
       {rating === "0" && (
-        <div class="flex">
+        <div className="flex">
           <StarOutlinedIcon />
           <StarOutlinedIcon />
           <StarOutlinedIcon />
@@ -16,7 +16,7 @@ export const DisplayStars = ({ rating }) => {
       )}
 
       {rating === "1" && (
-        <div class="flex">
+        <div className="flex">
           <StarFilledIcon />
           <StarOutlinedIcon />
           <StarOutlinedIcon />
@@ -25,7 +25,7 @@ export const DisplayStars = ({ rating }) => {
         </div>
       )}
       {rating === "2" && (
-        <div class="flex">
+        <div className="flex">
           <StarFilledIcon />
           <StarFilledIcon />
           <StarOutlinedIcon />
@@ -34,7 +34,7 @@ export const DisplayStars = ({ rating }) => {
         </div>
       )}
       {rating === "3" && (
-        <div class="flex">
+        <div className="flex">
           <StarFilledIcon />
           <StarFilledIcon />
           <StarFilledIcon />
@@ -43,7 +43,7 @@ export const DisplayStars = ({ rating }) => {
         </div>
       )}
       {rating === "4" && (
-        <div class="flex">
+        <div className="flex">
           <StarFilledIcon />
           <StarFilledIcon />
           <StarFilledIcon />
@@ -52,7 +52,7 @@ export const DisplayStars = ({ rating }) => {
         </div>
       )}
       {rating === "5" && (
-        <div class="flex">
+        <div className="flex">
           <StarFilledIcon />
           <StarFilledIcon />
           <StarFilledIcon />

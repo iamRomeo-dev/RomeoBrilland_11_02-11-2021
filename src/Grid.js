@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class Grid extends Component {
   render() {
     return (
-      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:bg-gray-100 rounded-xl gap-12 md:p-12 mt-24">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:bg-gray-100 rounded-xl gap-12 md:p-12 mt-24">
         {data.map((accomodation) => {
           return (
             <li key={accomodation.id}>
