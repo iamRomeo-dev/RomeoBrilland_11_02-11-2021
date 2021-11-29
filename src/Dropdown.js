@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Dropdown.css";
 import { CloseArrow, OpenArrow } from "./Icons";
 
 class Dropdown extends Component {
