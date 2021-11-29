@@ -107,7 +107,7 @@ export default class SingleAccomodation extends Component {
           </div>
         </div>
 
-        <div className="flex gap-4 mt-6">
+        <div className="flex flex-col md:flex-row justify-between gap-4 mt-6">
           <Dropdown
             title="Description"
             content={this.SingleAccomodationDatas().description}

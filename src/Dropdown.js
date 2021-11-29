@@ -17,7 +17,7 @@ class Dropdown extends Component {
     const { isOpen } = this.state;
     console.log(content);
     return (
-      <div className="w-full h-full min-w-300 rounded-md text-white text-xs md:text-lg bg-red-400 ">
+      <div className="w-full h-full rounded-md text-white text-xs md:text-lg bg-red-400 ">
         <h3
           onClick={() => this.toggleList()}
           className="flex justify-between px-4 md:px-8 py-2"
