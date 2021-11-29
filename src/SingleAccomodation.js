@@ -94,7 +94,7 @@ export default class SingleAccomodation extends Component {
               ))}
             </ul>
           </div>
-          <div className="flex flex-row-reverse items-center justify-between gap-4">
+          <div className="flex flex-row-reverse sm:flex-col items-center justify-between gap-4">
             <div className="flex justify-center items-center">
               <h3 className="text-xs md:text-lg text-red-400 font-normal">
                 {this.SingleAccomodationDatas().host.name}
