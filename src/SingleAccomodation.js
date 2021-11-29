@@ -89,7 +89,7 @@ export default class SingleAccomodation extends Component {
               {this.SingleAccomodationDatas().tags.map((tag, index) => (
                 <li
                   key={index}
-                  className="text-white text-xs md:text-lg bg-red-500 rounded-3xl px-4 md:px-8"
+                  className="text-white text-xs md:text-lg bg-red-400 rounded-3xl px-4 md:px-8"
                 >
                   {tag}
                 </li>
