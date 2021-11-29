@@ -2,7 +2,6 @@ import { StarFilledIcon } from "./Icons";
 import { StarOutlinedIcon } from "./Icons";
 
 export const DisplayStars = ({ rating }) => {
-  console.log(rating);
   return (
     <>
       {rating === "0" && (
