@@ -1,1 +1,1 @@
-[Mon projet] est en ligne via Netlify(https://p11-oc-romeo-brilland.netlify.app/).
+Come and have a look on [my live repo](https://p11-oc-romeo-brilland.netlify.app/).
