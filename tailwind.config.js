@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      minWidth: {
-        300: "300px",
+      fontSize: {
+        "10xl": "10rem",
       },
     },
   },
