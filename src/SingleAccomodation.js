@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Header from "./Header";
 import { DisplayStars } from "./DisplayStars";
 import { data } from "./data";
 import { LeftArrowIcon, RightArrowIcon } from "./Icons";
@@ -48,7 +47,6 @@ export default class SingleAccomodation extends Component {
     const item = this.SingleAccomodationDatas().pictures[this.state.index];
     return (
       <>
-        <Header />
         {/* <SingleBanner /> */}
         <div className="relative">
           <img

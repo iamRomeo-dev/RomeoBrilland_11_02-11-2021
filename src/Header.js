@@ -18,7 +18,7 @@ class Header extends Component {
               Accueil
             </Link>
             <a
-              href="#"
+              href="/about"
               className="ml-8 whitespace-nowrap inline-flex items-center justify-center py-2 text-base font-medium text-red-300"
             >
               A propos
