@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { LogoWhite } from "./Icons";
+
 class Footer extends Component {
   render() {
     return (
