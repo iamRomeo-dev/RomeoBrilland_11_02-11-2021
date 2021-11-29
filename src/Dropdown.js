@@ -20,7 +20,7 @@ class Dropdown extends Component {
       <div className="w-full h-full rounded-md text-white text-xs md:text-lg bg-red-400 ">
         <h3
           onClick={() => this.toggleList()}
-          className="flex justify-between px-4 md:px-8 py-2"
+          className="flex justify-between items-center px-4 md:px-8 py-2"
         >
           {title}
           <span>{isOpen ? <CloseArrow /> : <OpenArrow />}</span>

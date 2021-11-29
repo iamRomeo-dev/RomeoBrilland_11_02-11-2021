@@ -5,7 +5,7 @@ import { LogoWhite } from "./Icons";
 class Footer extends Component {
   render() {
     return (
-      <div className="bg-black flex flex-col justify-center items-center py-8 mt-6">
+      <div className="bg-black flex flex-col justify-center items-center gap-6 py-8 mt-6">
         <Link to="/">
           <LogoWhite />
         </Link>
