@@ -99,7 +99,7 @@ export default class SingleAccomodation extends Component {
               <h3 className="text-xs md:text-lg text-red-400 font-normal">
                 {this.SingleAccomodationDatas().host.name}
               </h3>
-              <div class="rounded-full bg-gray-200 h-12 w-12 ml-2 flex items-center justify-center"></div>
+              <div className="rounded-full bg-gray-200 h-12 w-12 ml-2 flex items-center justify-center"></div>
             </div>
             <DisplayStars rating={this.SingleAccomodationDatas().rating} />
           </div>
