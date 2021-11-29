@@ -72,7 +72,7 @@ export const OpenArrow = () => {
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      class="transform transition-transform duration-500 ease-in-out"
+      className="transform transition-transform duration-500 ease-in-out"
     >
       <path
         strokeLinecap="round"
@@ -92,7 +92,7 @@ export const CloseArrow = () => {
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      class="transform transition-transform duration-500 ease-in-out"
+      className="transform transition-transform duration-500 ease-in-out"
     >
       <path
         strokeLinecap="round"

@@ -15,7 +15,6 @@ class Dropdown extends Component {
   render() {
     const { title, content } = this.props;
     const { isOpen } = this.state;
-    console.log(content);
     return (
       <div className="w-full h-full rounded-md text-white text-xs md:text-lg bg-red-400 ">
         <h3
