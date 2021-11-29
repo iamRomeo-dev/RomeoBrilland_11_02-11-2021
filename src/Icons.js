@@ -3,7 +3,7 @@ export const StarOutlinedIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 512 512"
       height="1em"
       width="1em"
@@ -11,8 +11,8 @@ export const StarOutlinedIcon = () => {
     >
       <path
         fill="none"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinejoin="round"
+        strokeWidth="32"
         d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
       ></path>
     </svg>
@@ -24,7 +24,7 @@ export const StarFilledIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 512 512"
       height="1em"
       width="1em"
@@ -40,7 +40,7 @@ export const RightArrowIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       height="2em"
       width="2em"
@@ -57,7 +57,7 @@ export const LeftArrowIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       height="2em"
       width="2em"
@@ -65,6 +65,46 @@ export const LeftArrowIcon = () => {
     >
       <path fill="none" d="M0 0h24v24H0V0z"></path>
       <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"></path>
+    </svg>
+  );
+};
+
+export const OpenArrow = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      class="transform transition-transform duration-500 ease-in-out"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M19 9l-7 7-7-7"
+      ></path>
+    </svg>
+  );
+};
+
+export const CloseArrow = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      class="transform transition-transform duration-500 ease-in-out"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M5 15l7-7 7 7"
+      ></path>
     </svg>
   );
 };
