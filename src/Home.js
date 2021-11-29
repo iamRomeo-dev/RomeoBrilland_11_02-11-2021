@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Banner />
+        <Banner title={"Chez vous et partout ailleurs"} />
         <Grid />
       </div>
     );
