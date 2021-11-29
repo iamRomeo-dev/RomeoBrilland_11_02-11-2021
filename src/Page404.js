@@ -5,7 +5,7 @@ class Page404 extends Component {
   render() {
     return (
       <div className="flex flex-col justify-center items-center py-8 mt-6">
-        <div className="text-red-400 text-9xl font-bold">404</div>
+        <div className="text-red-400 text-10xl font-bold">404</div>
         <div className="text-red-400">
           Oups ! La page que vous avez demandé n'existe pas.
         </div>
