@@ -13,13 +13,13 @@ class Header extends Component {
           <div className="md:flex items-center justify-end md:flex-1 lg:w-0">
             <Link
               to="/"
-              className="whitespace-nowrap text-base font-medium text-red-300 hover:text-gray-900"
+              className="whitespace-nowrap text-xs sm:text-base font-medium text-red-300 hover:text-gray-900"
             >
               Accueil
             </Link>
             <a
               href="/about"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center py-2 text-base font-medium text-red-300"
+              className="ml-8 whitespace-nowrap inline-flex items-center justify-center py-2 text-xs sm:text-base font-medium text-red-300"
             >
               A propos
             </a>
