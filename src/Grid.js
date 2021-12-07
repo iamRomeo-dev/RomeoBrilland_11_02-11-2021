@@ -9,18 +9,18 @@ class Grid extends Component {
         {data.map((accomodation) => {
           return (
             <li key={accomodation.id}>
-              <Link
-                to={`/accomodation/${accomodation.id}`}
-                className="relative h-60 col-span-1 flex flex-col  md:h-72 lg:h-80 xl:h-96"
-              >
-                <img
-                  src={accomodation.cover}
-                  alt={accomodation.title}
-                  className="object-cover h-full rounded-xl"
-                />
-                <span className="absolute bottom-5 left-5 text-sm font-normal tracking-normal text-white tk-brandon-grotesque">
-                  {accomodation.title}
-                </span>
+              <Link to={`/accomodation/${accomodation.id}`}>
+                <div className="relative h-60 col-span-1 flex flex-col md:h-72 lg:h-80 xl:h-96 rounded-xl">
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black rounded-xl"></div>
+                  <img
+                    src={accomodation.cover}
+                    alt={accomodation.title}
+                    className="object-cover h-full rounded-xl"
+                  />
+                  <span className="absolute bottom-5 left-5 text-sm font-normal tracking-normal text-white tk-brandon-grotesque">
+                    {accomodation.title}
+                  </span>
+                </div>
               </Link>
             </li>
           );
